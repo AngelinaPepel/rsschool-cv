@@ -1,0 +1,244 @@
+/* lato-regular - latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('./fonts/lato-v23-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/lato-v23-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+html{
+  box-sizing: border-box;
+}
+*,*::before, *::after{
+  box-sizing: inherit;
+}
+*{
+  margin: 0;
+  padding:0;
+  border: 0;
+  font-size: 100% ;
+  font: inherit;
+  vertical-align: baseline;
+  list-style-type: none;
+  text-decoration: none;
+}
+body{
+ font-family: 'Lato';
+ font-style: normal;
+ font-size: 16px;
+ line-height: 1.3;
+ font-weight: 400;
+ color: #000000;
+ min-height: 100vh
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.conteiner {
+  max-width: 80% ;
+  margin:0 auto;
+  padding: 0px;
+ 
+}
+
+/* header style start*/
+.header{
+position: fixed;
+top: 0;
+width: 100%;
+background-color:#d6cac1 ;
+
+z-index: 1;
+}
+
+.header-nav {
+  width: 70%;
+  margin:0 auto;
+  padding-top:20px;
+  display: flex; 
+  flex-wrap: wrap;
+  
+
+}
+.header-list{
+  display: flex; 
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+  .header-item{
+    margin:0 auto;
+    
+  }
+  .header-link{
+    font-weight: 300;
+    color:#4b5c4f;
+  }
+  .header-link:hover, .header-link:focus, .header-link:active{
+    opacity: 0.75;}
+  /* header style end*/
+
+  /* main style start*/
+
+  .intro-bg{
+    margin-top: 40px;
+    padding-top:20px ;
+    background-color:#d6cac1 ;
+  }
+  
+
+  .intro {
+    display: flex; 
+    flex-wrap: wrap;
+    
+    height: 340px;
+
+  }
+  .intro-descrip{
+  display: flex; 
+  flex-direction:column;
+  margin:10px 0px;
+  }
+
+  .name {
+    font-weight: 1000;
+    font-size: 50px;
+    color: #4b5c4f;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+  
+    height: 300px;
+    line-height: 1.0;
+    margin: 0px 10px;
+  }
+  .city{
+    font-weight: 400;
+    font-size: 20px;
+    color: #4b5c4f;
+    margin: 0 10px;
+    height: 60px;
+  }
+  .position{
+    font-weight: 400;
+    font-size: 30px;
+    color: #4b5c4f;
+    margin: 5px 10px;
+    height: 40px;
+  }
+
+  .contact{
+    display: flex; 
+    flex-direction:column;
+    margin:10px;
+    height: 200px;
+  }
+  .contact-item{
+    margin: 10px 0px;
+    color: #3f2809
+  }
+.contact-link{
+  color:#7d644c;
+}
+.foto{
+  margin: 10px;
+}
+.foto-A {
+  margin-left: 200px;
+  border-radius: 20px 20px;
+}
+
+.rest-bg{ background-color: white;
+
+}
+.summary{
+    display: flex; 
+    flex-direction:column;
+    max-width: 55%;
+    
+  }
+  h2{
+  font-weight: 400;
+  font-size: 30px;
+  color: #4b5c4f;
+  margin: 10px;
+  height: 40px;
+}
+.summary-descrip, .footer-years, .my-github, .skills-item, .education-item, .english-descrip, .code-descrip, .projects-descrip{
+  font-size: 16px;
+  line-height: 1.3;
+  font-weight: 400;
+  color: #4b5c4f;
+  text-align:justify;
+}
+  .skills-education {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between}
+
+    .education-years{
+      font-size: 14px;
+    }
+    .education-place{
+      font-size: 16px;
+    }
+  .education-item
+  {margin-top: 20px;
+
+  }
+.education {
+  margin-top: 50px;
+  max-width: 55%;}
+
+  .course-item{
+    margin-left: 15px;
+  }
+
+.skills {
+  margin:-100px auto 0px;}
+
+  .skills-item{
+    margin-top: 5px;
+
+  }
+  .projects{
+    margin-bottom: 10px;
+  }
+
+
+.english, .code,  .projects{
+  margin-top: 20px;}
+
+  /* main style end*/
+  /* footer style start*/
+
+  .footer-bg{
+    height: 100px;
+    background-color:#d6cac1 
+  }
+  .footer-line{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 100px;
+    align-items: center;
+  }
+  .github{
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .my-github{
+    margin: 5px;
+  }
+  .summary, .education, .skills, .english, .code {
+    position:relative; }
+
+  #About, #English, #Skills, #Education, #Code{ 
+    position:absolute; 
+    top:-54px;}
+
+/* footer style end*/
