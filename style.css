@@ -31,7 +31,7 @@ body{
  color: #000000;
 }
 .conteiner {
-  max-width: 1219px ;
+  max-width: 80% ;
   margin:0 auto;
   padding: 0 55px;
 }
