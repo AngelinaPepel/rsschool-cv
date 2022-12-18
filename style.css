@@ -21,6 +21,8 @@ html{
   font-size: 100% ;
   font: inherit;
   vertical-align: baseline;
+  list-style-type: none;
+  text-decoration: none;
 }
 body{
  font-family: 'Lato';
@@ -34,4 +36,45 @@ body{
   max-width: 80% ;
   margin:0 auto;
   padding: 0 55px;
+  border: 1px solid #e81717;
 }
+
+/* header style start*/
+.header{
+position: fixed;
+top: 0;
+width: 100%;
+border: 1px solid #39ce1b
+}
+
+.header-nav {
+  padding-top:20px;
+  display: flex; 
+  flex-wrap: wrap;
+  border: 1px solid #2241bd;
+
+}
+.header-list{
+  display: flex; 
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+  .header-item{
+    margin:0 auto;
+    
+  }
+  .header-link{
+    font-weight: 300;
+    color: #a0920f
+  }
+
+
+
+
+  
+
+
+}
+
+
+/* header style end*/
