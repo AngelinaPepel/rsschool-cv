@@ -28,14 +28,14 @@ body{
  font-family: 'Lato';
  font-style: normal;
  font-size: 16px;
- line-height: 1.2;
+ line-height: 1.3;
  font-weight: 400;
  color: #000000;
 }
 .conteiner {
   max-width: 80% ;
   margin:0 auto;
-  padding: 0 55px;
+  padding: 0px;
   border: 1px solid #e81717;
 }
 
@@ -44,10 +44,13 @@ body{
 position: fixed;
 top: 0;
 width: 100%;
+background-color:#d6cac1 ;
 border: 1px solid #39ce1b
 }
 
 .header-nav {
+  width: 70%;
+  margin:0 auto;
   padding-top:20px;
   display: flex; 
   flex-wrap: wrap;
@@ -65,16 +68,101 @@ border: 1px solid #39ce1b
   }
   .header-link{
     font-weight: 300;
-    color: #a0920f
+    color:#4b5c4f;
+  }
+  .header-link:hover, .header-link:focus, .header-link:active{
+    opacity: 0.75;}
+  /* header style end*/
+
+  /* main style start*/
+/* intro style start*/
+  .main-bg{
+    margin-top: 40px;
+    padding-top:20px ;
+    height: 400px;
+    background-color:#d6cac1 ;
+   
+  }
+  .intro {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+  }
+  .intro-descrip{
+  display: flex; 
+  flex-direction:column;
+  margin:10px 0px;
   }
 
+  .name {
+    font-weight: 1000;
+    font-size: 50px;
+    color: #4b5c4f;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    border: 1px solid #2241bd;
+    height: 300px;
+    line-height: 1.0;
+    margin: 0px 10px;
+  }
+  .city{
+    font-weight: 400;
+    font-size: 20px;
+    color: #4b5c4f;
+    margin: 0 10px;
+    height: 60px;
+  }
+  .position{
+    font-weight: 400;
+    font-size: 30px;
+    color: #4b5c4f;
+    margin: 5px 10px;
+    height: 40px;
+  }
 
+  .contact{
+    display: flex; 
+    flex-direction:column;
+    margin:10px;
+    height: 200px;
+  }
+  .contact-item{
+    margin: 10px 0px;
+    color: #3f2809
+  }
+.contact-link{
+  color:#7d644c;
+}
+.foto{
+  margin: 10px;
+}
+.foto-A {
+  border-radius: 20px 20px;
+}
+/* intro style end*/
 
+/* descrip style start*/
 
+  .summary{
+    display: flex; 
+    flex-direction:column;
+    max-width: 50%;
+  }
+  h2{
+  font-weight: 400;
+  font-size: 30px;
+  color: #4b5c4f;
+  margin: 5px;
+  height: 40px;
+}
+.summary-descrip{
+
+}
   
 
 
-}
 
 
 /* header style end*/
